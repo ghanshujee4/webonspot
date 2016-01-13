@@ -138,7 +138,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 /*--//header--*/
  /*--content-top--*/
-.glyphicon.glyphicon-book ,.glyphicon.glyphicon-time,.glyphicon.glyphicon-edit{
+.glyphicon.glyphicon-book ,.glyphicon.glyphicon-time,.glyphicon.glyphicon-edit, .glyphicon.glyphicon-phone{
 	font-size: 2.6em;
 	color: #fff;
 	background: #7D3F98;
@@ -194,10 +194,10 @@ transition: transform 0.8s ease-in-out 0s;
 	top: -53%;
 }
 .caption h3{
-	font-size:1.3em;
+	
 	font-family: 'Cinzel-Regular';
-	color:#fff;
-	margin: 0.5em 0;
+    color: #081AFC;
+    margin: 0.5em 0;
 }
 .caption p{
 	color: #000;
