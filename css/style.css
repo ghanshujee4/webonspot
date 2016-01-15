@@ -307,7 +307,7 @@ i.glyphicon.glyphicon-ok {
   margin: 0.3em 0;
 }
 .content-right-top ul li a:hover {
-  color: #000;
+  color: #081AFC;
 }
 .col1{
 	background: #00BCE4;	
@@ -1760,4 +1760,7 @@ h3.typo1 {
     -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
     background: #333;
+}
+.cust_150 {
+max-width:150px;
 }
