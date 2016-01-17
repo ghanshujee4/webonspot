@@ -182,7 +182,8 @@ transition: transform 0.8s ease-in-out 0s;
 	min-height: 252px;
 	background: rgba(0, 188, 228, 0.44);
 	padding: 0em 1.5em 1.5em;
-	 position: relative;
+	position: relative;
+	border-radius: 0px 0px 6px 6px;
 }
 .content-top{
 	position:relative;
@@ -228,7 +229,11 @@ transition: transform 0.8s ease-in-out 0s;
 	padding: 0;
 }
 .content-middle {
-  padding: 0 15px;
+  	padding: 0 15px;
+	box-sizing: border-box;
+	background: #7D3F98;
+	border-radius: 5px;
+
 }
 .content-mid1{
 	padding: 1.63em;
