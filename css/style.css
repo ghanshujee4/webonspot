@@ -213,7 +213,7 @@ transition: transform 0.8s ease-in-out 0s;
 	border-right: 0px solid rgba(0, 0, 0, 0);
 	border-bottom: 352px solid rgba(0, 188, 228, 0.44);
 	border-left: 76px solid rgba(60, 128, 168, 0);
-	top: -84.6%;
+	top:-213px;
 	left: 39.7%;
 	transform: rotate(90deg);
 }
@@ -839,7 +839,7 @@ h5.reply a:hover {
 @media(max-width:1210px){
 .top-grid:before {
   border-bottom: 286px solid rgba(0, 188, 228, 0.44);
-  top: -65.6%;
+  top:-181px;
   left: 37.7%;
 }
 .top:before {
