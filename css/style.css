@@ -1221,7 +1221,7 @@ h3.typo1 {
 .top-grid:before {
   border-bottom: 281px solid rgba(0, 188, 228, 0.44);
   border-left: 45px solid rgba(60, 128, 168, 0);
-  top: -85%;
+	top: -163px;
   left: 42%;
 }
 .top-grid {
