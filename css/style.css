@@ -1299,7 +1299,7 @@ h3.typo1 {
 }
 .content-middle {
   padding: 0;
-  margin-top:245px;
+  margin-top:278px;
 }
 /*--services--*/
 .top-services h2 {
@@ -1438,16 +1438,8 @@ h3.typo1 {
 }
 }
 @media (max-width: 384px){
-.top-grid:before {
-  border-bottom: 236px solid rgba(0, 188, 228, 0.44);
-  border-left: 45px solid rgba(60, 128, 168, 0);
- 
-  left: 41%;
-}
-.top:before {
-  border-bottom: 236px solid rgba(125, 63, 152, 0.44);
-  border-left: 45px solid rgba(60, 128, 168, 0);
-}
+
+
 .content-top {
   padding: 22em 0;
 }
@@ -1821,3 +1813,14 @@ max-width: 150px;
         .jssora02r:hover { background-position: -183px -33px; }
         .jssora02l.jssora02ldn { background-position: -3px -33px; }
         .jssora02r.jssora02rdn { background-position: -63px -33px; }
+
+@media only screen and (min-width:481px) and (max-width:1024px){
+
+	.top-grid:before,.top:before,.top-grid:before{
+		display: none;
+	}
+	.content-top1 {
+		top: -20%;
+	}
+}
+
