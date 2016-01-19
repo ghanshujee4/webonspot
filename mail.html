@@ -11,14 +11,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
+	<link href="css/style_contact.css" rel="stylesheet">
 <!-- Custom Theme files -->
 <!--theme-style-->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Scientist Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords" content="contact us web design, contact for website company, contact for logo creation, contact in muzaffarpur, contact for website in bangalore" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
@@ -66,15 +66,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14325.756693938552!2d85.368833!3d26.149823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd8b817b27a9f853!2sweb+on+spot!5e0!3m2!1sen!2sin!4v1452599609008" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 			 </div>
-			 <div class="contact-bottom">
-				 <form>
-					<input type="text"  value="First Name" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'First Name';}">	
-					<input type="text"  value="Last Name" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Last Name';}">				
-					<input type="text"  value="Email Address" placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Email Address';}">
-					<textarea placeholder=""  onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Message';}" >Message</textarea>	
-					<input type="submit" value="Submit">
-				</form>	
-			</div>			
+					<div class="container">
+						<div id="main" style="padding:50px 0 0 0;">
+
+							<!-- Form -->
+							<form id="contact-form" method="post" name="myemailform" action="form-to-email.php">
+								<h3>Get in touch</h3>
+								<h4>Fill in the form below, and we'll get back to you within 24 hours.</h4>
+								<div>
+									<div class="col-md-6">
+										<span>Name: (required)</span>
+										<input placeholder="Please enter your name" type="text" tabindex="1" required autofocus name="name">
+									</div>
+								</div>
+								<div>
+									<div class="col-md-6">
+										<span>Email: (required)</span>
+										<input placeholder="Please enter your email address" type="email" tabindex="2" required name="email">
+									</div>
+								</div>
+								<div>
+									<div class="col-md-6">
+										<span>Telephone: (required)</span>
+										<input placeholder="Please enter your number" type="tel" tabindex="3" required name="tel">
+									</div>
+								</div>
+								<div>
+									<div class="col-md-6">
+										<span>Website: (required)</span>
+										<input placeholder="Begin with http://" type="url" tabindex="4" required>
+									</div>
+								</div>
+								<div>
+									<div class="col-md-6">
+										<span>Message: (required)</span>
+										<textarea placeholder="Include all the details you can" tabindex="5" required name="message"></textarea>
+									</div>
+								</div>
+								<div>
+									<button name="submit" type="submit" id="contact-submit">Send Email</button>
+								</div>
+							</form>
+							<!-- /Form -->
+
+						</div>
+					</div>
+
+					<script src="js/scripts.js"></script>
 		</div>
 			</div>
 
@@ -133,3 +171,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 </body>
 </html>
+<?php
+  $name = $_POST['name'];
+  $visitor_email = $_POST['email'];
+  $message = $_POST['message'];
+?>
