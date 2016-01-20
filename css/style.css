@@ -221,7 +221,7 @@ transition: transform 0.8s ease-in-out 0s;
     display:none;
 }
 .top{
-	background-color: rgba(125, 63, 152, 0.44);
+	background-color:rgb(125, 63, 152) ;
 }
 .top:before{
 	border-bottom: 352px solid  rgba(125, 63, 152, 0.44);
@@ -1827,5 +1827,20 @@ max-width: 150px;
 	.content-top1 {
 		top: -20%;
 	}
+}
+.top_header{
+	align-content: center;
+	height: auto;
+    border: 1px solid #7D3F98;
+    margin: auto;
+    clear: both;
+    /* width: 75%; */
+    /* background: #009BDD; */
+    line-height: 46px;
+    font-weight: 700;
+    box-shadow: 1px 6px #7D3F98;
+    content: "";
+    border-radius: 0px 10px;
+    background: greenyellow;
 }
 
