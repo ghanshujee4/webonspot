@@ -80,6 +80,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	display: block;
 	padding: 1.6em 1em;
 	text-align: center;
+    border-radius: 1px 1px 20px 20px;
 }
 .top-nav ul li.active a{
 	color: #fff;
@@ -128,9 +129,11 @@ h1,h2,h3,h4,h5,h6,label,p{
 	transition-duration: 0.3s;
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
+    border-radius:1px 1px 10px 10px;
 }
 .hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
 	color: white;
+    border-radius:1px 1px 20px 20px;
 }
 .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
 	-webkit-transform: scaleY(1);
