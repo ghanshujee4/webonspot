@@ -1846,4 +1846,9 @@ max-width: 150px;
     border-radius: 0px 10px;
     background: #7D3F98;
 }
+.icon-bar img {
+max-width:55px;
+float:left;
+
+}
 
