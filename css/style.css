@@ -936,6 +936,9 @@ h4.media-heading {
 .logo h1 {
   font-size: 2.3em;
 }
+.logo{
+	left:0px !important;
+}
 span.menu{
 	display: block;
 	text-align: right;
@@ -1188,6 +1191,7 @@ h3.typo1 {
 }
 
 @media (max-width: 600px){
+
 .top-grid:before {
   border-bottom: 175px solid rgba(0, 188, 228, 0.44);
   border-left: 45px solid rgba(60, 128, 168, 0);
@@ -1212,6 +1216,9 @@ h3.typo1 {
 }
 }
 @media(max-width:480px){
+	.logo{
+		top:55px;
+	}
 .grid-top {
   width: 100%;
   float: none;
@@ -1462,7 +1469,7 @@ h3.typo1 {
   border-left: 45px solid rgba(60, 128, 168, 0);
 }*/
 
-}
+
 @media(max-width:320px){
 .grid-top {
   width: 100%;
@@ -1849,6 +1856,8 @@ max-width: 150px;
 .icon-bar img {
 max-width:55px;
 float:left;
-
+}
+ul li{
+	list-style: none;
 }
 
