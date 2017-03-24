@@ -38,3 +38,26 @@ www.toddmotto.com
 	}
 
 })();
+
+
+ $("#Designser").click(function () {
+     debugger
+     $("#rwo_Design").show();
+     $("#rwo_UI").hide();
+     $("#rwo_Development").hide();
+ });
+
+$("#Uieng").click(function () {
+
+    $("#rwo_Design").hide();
+    $("#rwo_UI").show();
+    $("#rwo_Development").hide();
+});
+$("#webdev").click(function () {
+        
+    $("#rwo_Design").hide();
+    $("#rwo_UI").hide();
+    $("#rwo_Development").show();
+});
+
+
