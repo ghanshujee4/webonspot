@@ -22,16 +22,19 @@
 }
 	.forkit .tag {
 		display: block;
-		height: 41px;
+        height:41px;
+		height: 100px;
 		width: 200px;
 
 		color: red;
 		background: url('/img/India-icon.png');
+        background-size:200px 100px;
 		text-align: center;
 		font-size: 13px;
 		font-weight: bold;
 		line-height: 40px;
-		box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.4 );
+		/*box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.4 );*/
+        box-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.4 );
 
 		-webkit-transform-origin: 15px 0px;
 		   -moz-transform-origin: 15px 0px;
