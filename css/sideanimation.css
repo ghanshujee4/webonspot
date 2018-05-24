@@ -3,11 +3,11 @@
  width: 350px;
  padding: 8px 11px;
  padding-top: 35px;
- position: fixed;
- top: 0;
+ position: absolute;
+ top:200px;
  left: 0;
- bottom:0px;
- height: 100%;
+
+ height: 400px;
  background:#d1e0f8;
  z-index: 99999;
 }
@@ -19,14 +19,14 @@
     height: auto;
     display: block;
     /* background: #473d47 url(http://media02.hongkiat.com/jquery-sliding-navigation/bg.png); */
-    min-height: 800px;
+    min-height: 400px;
     /* overflow: hidden; */
-    position: fixed;
+    position: absolute;
     z-index: 2;
     color: #fff;
     left: 0px;
-    top: 0px;
-    bottom: 0px;
+    top: 200px;
+  
 }
 #mainpage nav { 
  position: absolute;
@@ -35,6 +35,8 @@
  padding: 0px 8px;
  padding-top: 220px;
     background: #035996;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0 14px 28px rgb(0, 188, 228), 0 10px;
 }
 #mainpage nav h1 {
  font-family: 'ABeeZee', 'Trebuchet MS', Arial, sans-serif;
@@ -196,7 +198,7 @@ nav#bottom #navigation li {
 }
 
 .fixed-btm { padding-bottom: 120px; }
-.h_iframe        {display:flex}
+.h_iframe        {display:flexbox;}
 .h_iframe .ratio {display:block;width:100%;height:auto;}
 /*.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}*/
     .h_iframe iframe {
@@ -204,19 +206,25 @@ nav#bottom #navigation li {
         top: 0px;
         left: 0px;
         width: 100%;
-        display: flex;
+        display: flexbox;
         height: 100%;
     }
     .close{
-        float: right;
+    float: right;
     font-size: 21px;
     font-weight: 700;
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    filter: alpha(opacity=20);
-    opacity: .2;
-  
+    filter: alpha(opacity=20); 
     left: 177px;
     top: 10px;
     }
+   
+    @media only screen and (max-width:640px){
+        #mainpage, #about{
+            display:none;
+        }
+
+    }
+    

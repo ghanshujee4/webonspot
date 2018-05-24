@@ -41,8 +41,7 @@ $(document).ready(function(){
   
   function closeSidepage(){
     $("#navigation li a").removeClass("open");
-    $('#mainpage').animate({
-      right: '0px'
-    }, 400, 'easeOutQuint');  
+    $('#mainpage').fadeOut("slow");
+      
   }
 }); 
